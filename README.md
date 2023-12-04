@@ -40,7 +40,13 @@ cd entrance/utility_room/back_garden/
 source relax_in_hammock.sh
 ```
 
-Then you hit the big green Run button. The following should print in the console.
+After saving `main.sh`, in the terminal, if you enter
+
+```bash
+source main.sh
+```
+
+You'll get the following message.
 
 ```
 (You approach the hammock)
@@ -53,7 +59,8 @@ Keep adding commands, either before or after previous commands, to get to a poin
 
 ### Notes
 
-- Every time you press run, it's starting from fresh. If you, for example, made coffee the last time you hit Run, and then delete the code to make the coffee, your coffee won't still be there!
+- Every time you run `source main.sh`, you're starting from fresh. So, e.g. if you made the coffee successfully,
+  it won't still be made if you delete those lines of code from your script.
 - Don't any other shell script except `main.sh`.
 - You can leave comments to yourself with `#`. Any line, or part of a line that starts with `#` won't be interpreted.
 

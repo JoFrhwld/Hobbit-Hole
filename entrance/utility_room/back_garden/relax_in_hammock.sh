@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo "(You approach the hammock)"
-if [[ -v READ ]];
+if [[ -z READ ]];
   then
     echo "I've read the newspaper."
-    if [[ -v WASHED ]];
+    if [[ -z WASHED ]];
       then
         echo "I've washed the laundry."
-        if [[ -v DRIED ]];
+        if [[ -z DRIED ]];
           then
             echo "I've hung the laundry to dry."
             echo "I can finally relax in this hammock!"

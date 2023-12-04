@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "(You are at the laundry line)"
-if [[ -v WASHED ]]
+if [[ -z WASHED ]]
   then
-    if [[ -v PEGS ]]
+    if [[ -z PEGS ]]
       then
         export DRIED="dried"
         echo "I've hung up my laundry and it's drying!"

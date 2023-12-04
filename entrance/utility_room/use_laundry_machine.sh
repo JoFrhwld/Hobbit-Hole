@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "(You are standing in front of the laundry machine)"
-if [[ -v HAS_LAUNDRY ]];
+if [[ -z HAS_LAUNDRY ]];
   then
     export WASHED="washed"
     echo "I've washed the laundry, but it's still wet!"

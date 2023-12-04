@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "(You are at the coffee machine)"
-if [[ -v KETTLE ]]; 
+if [[ -z KETTLE ]]; 
 then
   export COFFEE="made"
   echo "The coffee is made!"

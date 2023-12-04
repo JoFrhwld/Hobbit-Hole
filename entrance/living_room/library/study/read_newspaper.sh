@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "(You are in your study)"
-if [[ -v COFFEE ]];
+if [[ -z COFFEE ]];
   then 
-    if [[ -v NEWSPAPER ]];
+    if [[ -z NEWSPAPER ]];
       then
         export READ="newspaper"
         echo "Reading the newspaper intently with my coffee!"
