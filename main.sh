@@ -10,3 +10,4 @@ source relax_in_hammock.sh
 
 #### Stop editing! Leave this here!
 cd $OUTSIDE
+source ./assets/reset.sh

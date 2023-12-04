@@ -1,0 +1,9 @@
+unset COFFEE
+unset KETTLE
+unset NEWSPAPER
+unset HAS_LAUNDRY
+unset WASHED
+unset PEGS
+unset READ
+unset WASHED
+unset DRIED
